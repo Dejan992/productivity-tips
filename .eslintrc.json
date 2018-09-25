@@ -2,6 +2,9 @@
   "root": true,
   "extends": ["fullstack", "prettier", "prettier/react"],
   "rules": {
-    "semi": 0
+    "semi": 0,
+    "complexity": "off",
+    "react/display-name": "off",
+    "no-shadow": "off"
   }
 }
