@@ -8,8 +8,8 @@ function setName(myName) {
 
 function showMessage(person) {
   if (!person) return alert('I dunno who you are 🤔');
-  const message = `Hi, ${name}! 👋🏼`;
   alert(message);
+  const message = `Hi, ${name}! 👋🏼`;
   console.log('message', message);
 }
 
